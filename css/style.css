@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 8rem 1fr;
+  font-size: 1.6rem;
+  font-family: monospace;
+}
+
+header, main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 3rem;
+}
+
+header h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 3.3rem;
+  line-height: 3.3rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+}
+
+[v-cloak] {
+  display: none;
+}
